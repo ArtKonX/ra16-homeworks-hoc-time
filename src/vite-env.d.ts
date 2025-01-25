@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-interface VideoProps {
+interface Video {
     url?: string,
     date: string
 }

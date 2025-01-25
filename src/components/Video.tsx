@@ -2,7 +2,7 @@ import DateTime from "./DateTime"
 import withFormatting from "../hocs/withFormatting"
 import formattingDate from "../utils/formattingDate";
 
-function Video(props: VideoProps) {
+function Video(props: Video) {
 
     const DateTimePretty = withFormatting(formattingDate, 'date')(DateTime);
 

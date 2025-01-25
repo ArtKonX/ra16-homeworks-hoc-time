@@ -1,4 +1,4 @@
-function DateTime(props: VideoProps) {
+function DateTime(props: Video) {
     return (
         <p className="date">{props.date}</p>
     )
